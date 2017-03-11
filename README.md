@@ -21,7 +21,7 @@ text_post.user == None  # Important! Since the post has no user yet, the user at
 
 john.add_post(text_post)
 
-text.post.user == john  # Important!
+text_post.user == john  # Important!
 len(john.posts)
 >>> 1
 ```
