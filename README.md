@@ -26,7 +26,7 @@ len(john.posts)
 >>> 1
 ```
 
-As you can see from our previous example, a post is created without a user. It's an "orphan" we might say. By default when a post is created it's user attribute is `None`. But once we add that post to a user using `add_post()`, the post's user attribute should be assigned and added to the user's list of posts.
+As you can see from our previous example, a post is created without a user. It's an "orphan" we might say. By default when a post is created it's user attribute is `None`. But once we add that post to a user using `add_post()`, the post's user attribute should be updated, and the post should be added to the user's list of posts.
 
 ## Following users
 
