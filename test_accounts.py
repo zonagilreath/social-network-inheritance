@@ -59,4 +59,4 @@ def test_user_get_posts_by_followers():
         user2_post1,
         user2_post2,
         user3_post1
-    ])
+    ]
