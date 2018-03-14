@@ -1,6 +1,5 @@
-from datetime import datetime
-
 import factory
+from datetime import datetime
 
 from social_network import accounts, posts
 
