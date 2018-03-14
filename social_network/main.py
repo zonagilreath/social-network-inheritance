@@ -38,7 +38,7 @@ def main():
         "At Abbey Road Studios", latitude="19.111", longitude="-9.2222"))
 
     print("### John's timeline")
-    for post in john.get_posts_by_followers():
+    for post in john.get_timeline():
         print(post)
 
 if __name__ == '__main__':

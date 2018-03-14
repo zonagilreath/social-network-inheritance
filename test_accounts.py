@@ -27,7 +27,7 @@ def test_add_post():
 
     assert len(user.posts) == 2
 
-def test_user_get_posts_by_followers():
+def test_user_timeline():
     """Should only return posts from users I'm following"""
     user1 = UserFactory()
     user2 = UserFactory()
