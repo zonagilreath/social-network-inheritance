@@ -12,7 +12,7 @@ class User(object):
 
     def get_timeline(self):
         unordered_timeline =  [post for user in self.following for post in user.posts]
-        return sorted(unordered_timeline, key=lambda x: x.timestamp, reverse=True)
+        return sorted(unordered_timeline, key=lambda post: post.timestamp, reverse=True)
         
 
     def follow(self, other):
